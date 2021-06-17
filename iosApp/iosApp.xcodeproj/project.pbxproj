@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		2DF4677C267B859900D9FC8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF46779267B859900D9FC8B /* AppDelegate.swift */; };
+		2DF4677D267B859900D9FC8B /* RocketLaunchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4677A267B859900D9FC8B /* RocketLaunchRow.swift */; };
+		2DF4677E267B859900D9FC8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4677B267B859900D9FC8B /* SceneDelegate.swift */; };
 		3866444F3EA6FA55BAADE813 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9043CDF924766393F1D6E46A /* Pods_iosApp.framework */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		2DF46779267B859900D9FC8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DF4677A267B859900D9FC8B /* RocketLaunchRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketLaunchRow.swift; sourceTree = "<group>"; };
+		2DF4677B267B859900D9FC8B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,9 +59,11 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				2DF46779267B859900D9FC8B /* AppDelegate.swift */,
+				2DF4677A267B859900D9FC8B /* RocketLaunchRow.swift */,
+				2DF4677B267B859900D9FC8B /* SceneDelegate.swift */,
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
-				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -68,7 +74,6 @@
 				A41A3BE2E49601C96D947F5F /* Pods-iosApp.debug.xcconfig */,
 				E35FE016BC4941DF58809E95 /* Pods-iosApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -174,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				2DF4677E267B859900D9FC8B /* SceneDelegate.swift in Sources */,
+				2DF4677C267B859900D9FC8B /* AppDelegate.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				2DF4677D267B859900D9FC8B /* RocketLaunchRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
